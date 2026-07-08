@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio of Sanoj, focused on practical AI, data systems, retrieval, and analytics work."
+    />
+    <title>Sanoj | Portfolio</title>
+    <link rel="icon" type="image/png" href="assets/icon/icon.png" />
+    <script>
+      if ("scrollRestoration" in history) {
+        history.scrollRestoration = "manual";
+      }
+      if (window.location.hash) {
+        history.replaceState(null, "", window.location.pathname + window.location.search);
+      }
+      const systemDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+      document.documentElement.dataset.theme = systemDark ? "dark" : "light";
+      window.scrollTo(0, 0);
+    </script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" data-reveal>
+      <a class="brand" href="#top" aria-label="Sanoj Doddapaneni home">
+        <span class="brand-mark" aria-hidden="true">
+          <img src="assets/icon/icon.png" alt="" />
+        </span>
+        <span>Sanoj | Doddapaneni</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#work" data-nav="work">Artifacts</a>
+        <a href="#contact" data-nav="contact">Get in touch</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section-shell">
+        <div class="hero-copy" data-reveal>
+          <h1><span>Smart Data.</span><span>Purposeful AI.</span></h1>
+          <p class="hero-lede">
+            AI and data-focused software professional with a Bachelor's in Computer Science and a
+            Master's in Data Science from the University of Oklahoma, currently pursuing a Master's
+            in Computer Information Systems with Artificial Intelligence at Indiana Wesleyan
+            University. I bring experience from Amazon and 3+ years of hands-on work across AI
+            systems, data workflows, automation, and user-focused software, with a strong emphasis
+            on practical execution, clear communication, and reliable engineering.
+          </p>
+          <div class="hero-actions" aria-label="Portfolio actions">
+            <a class="button primary" href="#work">View Artifacts</a>
+            <a class="button secondary" href="https://github.com/d-sanoj" target="_blank" rel="noreferrer">
+              Open GitHub profile
+            </a>
+          </div>
+        </div>
+
+        <aside class="hero-card" data-reveal>
+          <div class="portrait-stack">
+            <div class="avatar-frame">
+              <img
+                src="assets/sanoj-github-avatar.png"
+                alt="GitHub avatar for Sanoj"
+              />
+            </div>
+          </div>
+          <div class="terminal-card" aria-label="Developer profile summary">
+            <div class="terminal-bar">
+              <span></span><span></span><span></span>
+            </div>
+            <p class="mono">$ whoami</p>
+            <h2>Sanoj Doddapaneni</h2>
+            <p>"Encode your legacy in bits and bytes."</p>
+            <div class="terminal-tags">
+              <span>AI + Data</span>
+              <span>Retrieval</span>
+              <span>Analytics</span>
+              <span>NLP</span>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <section class="marquee-band" aria-label="Focus areas">
+        <div class="marquee-track">
+          <div class="marquee-group">
+            <span>Generative AI</span>
+            <span>LLMs</span>
+            <span>SLMs</span>
+            <span>Natural Language Processing</span>
+            <span>Text Processing</span>
+            <span>Text Mining</span>
+            <span>Data Science</span>
+            <span>Machine Learning</span>
+            <span>Data Analytics</span>
+            <span>Prediction</span>
+            <span>AI systems</span>
+            <span>AI Agents</span>
+            <span>Retrieval-Augmented Generation</span>
+            <span>Prompt Engineering</span>
+            <span>Context Engineering</span>
+            <span>Deep Learning</span>
+            <span>Fine-Tuning</span>
+            <span>Vision</span>
+            <span>Diffusion Models</span>
+          </div>
+          <div class="marquee-group" aria-hidden="true">
+            <span>Generative AI</span>
+            <span>LLMs</span>
+            <span>SLMs</span>
+            <span>Natural Language Processing</span>
+            <span>Text Processing</span>
+            <span>Text Mining</span>
+            <span>Data Science</span>
+            <span>Machine Learning</span>
+            <span>Data Analytics</span>
+            <span>Prediction</span>
+            <span>AI systems</span>
+            <span>AI Agents</span>
+            <span>Retrieval-Augmented Generation</span>
+            <span>Prompt Engineering</span>
+            <span>Context Engineering</span>
+            <span>Deep Learning</span>
+            <span>Fine-Tuning</span>
+            <span>Vision</span>
+            <span>Diffusion Models</span>
+          </div>
+          <div class="marquee-group" aria-hidden="true">
+            <span>Generative AI</span>
+            <span>LLMs</span>
+            <span>SLMs</span>
+            <span>Natural Language Processing</span>
+            <span>Text Processing</span>
+            <span>Text Mining</span>
+            <span>Data Science</span>
+            <span>Machine Learning</span>
+            <span>Data Analytics</span>
+            <span>Prediction</span>
+            <span>AI systems</span>
+            <span>AI Agents</span>
+            <span>Retrieval-Augmented Generation</span>
+            <span>Prompt Engineering</span>
+            <span>Context Engineering</span>
+            <span>Deep Learning</span>
+            <span>Fine-Tuning</span>
+            <span>Vision</span>
+            <span>Diffusion Models</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-shell intro-grid">
+        <div class="section-heading value-heading" data-reveal>
+          <p class="eyebrow">Value Proposition</p>
+          <h2>Useful software, thoughtful interfaces and practical AI applications.</h2>
+        </div>
+        <div class="value-proposition" data-reveal>
+          <p>
+            I build products and workflows that turn complicated ideas into tools people can use:
+            AI assistants, local-first utilities, data pipelines, research systems, and polished
+            macOS experiences. My stack spans Python, JavaScript, Swift, SQL, LLM workflows,
+            retrieval systems, text processing, analytics dashboards, and modern frontend patterns.
+            I care about choosing technology for the problem, not the trend, and shaping it into
+            systems that are maintainable, understandable, and ready to evolve.
+          </p>
+          <p>
+            I bring a structured, ownership-oriented approach to delivery: clarifying ambiguity,
+            communicating tradeoffs, documenting decisions, and helping teams move from idea to
+            execution with confidence. My work sits at the intersection of automation, data, and
+            product craft, where technical quality, user needs, and business context all have to
+            meet. I like reducing friction, shaping messy information into usable context, and
+            shipping with enough polish that the details quietly disappear.
+          </p>
+        </div>
+      </section>
+
+      <section class="section-shell work-section" id="work">
+        <div class="section-heading wide" data-reveal>
+          <p class="eyebrow">Artifacts</p>
+          <h2>AI, ML and Data Artifacts.</h2>
+        </div>
+
+        <div class="project-grid" id="artifactGrid">
+          <article class="project-card" data-reveal>
+            <button class="artifact-card-button" type="button" data-artifact-open="finagent" aria-haspopup="dialog">
+              <span class="artifact-image">
+                <img src="assets/finagent-logo.png" alt="FinAgent wordmark" />
+              </span>
+              <span class="artifact-card-title">FinAgent</span>
+              <span class="artifact-card-copy">
+                A conversational finance assistant that turns everyday banking activity into clear,
+                private, plain-language insight.
+              </span>
+            </button>
+          </article>
+
+          <article class="project-card" data-reveal>
+            <button class="artifact-card-button" type="button" data-artifact-open="turing" aria-haspopup="dialog">
+              <span class="artifact-image">
+                <img src="assets/turing-today-logo.png" alt="Turing Today wordmark" />
+              </span>
+              <span class="artifact-card-title">Turing Today</span>
+              <span class="artifact-card-copy">
+                A guided AI-history experience that makes technical milestones easier to scan,
+                understand, and connect to modern AI systems.
+              </span>
+            </button>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-shell contact-section" id="contact" data-reveal>
+        <p class="eyebrow">Get in touch</p>
+        <h2>Interested in practical AI or data work?</h2>
+        <p>
+          I am most interested in projects where AI and data need to become something usable:
+          search, extraction, dashboards, document workflows, classification, or local assistants.
+        </p>
+        <div class="contact-actions">
+          <a class="button primary" href="mailto:sanoj.doddapaneni@myemail.indwes.edu">Email me</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Sanoj Doddapaneni</span>
+      <span>Encode your legacy in bits and bytes.</span>
+    </footer>
+
+    <div class="artifact-modal" id="artifactModal" role="dialog" aria-modal="true" aria-label="Artifact details" hidden>
+      <div class="artifact-modal-backdrop" data-artifact-close></div>
+      <div class="artifact-modal-panel" role="document" tabindex="-1">
+        <button class="artifact-modal-close" type="button" data-artifact-close aria-label="Close artifact details">Close</button>
+
+        <article class="artifact-modal-content is-active" data-artifact-modal="finagent">
+          <div class="artifact-modal-header">
+            <img src="assets/finagent-logo.png" alt="FinAgent wordmark" />
+            <div>
+              <p class="project-kicker">AI / Personal data</p>
+              <h3>FinAgent</h3>
+              <p class="artifact-summary">
+                A conversational finance assistant that turns everyday banking activity into
+                clear, private, plain-language insight.
+              </p>
+            </div>
+          </div>
+          <dl class="artifact-details">
+            <div>
+              <dt>Objective</dt>
+              <dd>
+                <p>The objective of FinAgent is to create a private AI-powered personal finance assistant that lets users ask questions about bank accounts, spending, balances, income, and transactions in plain English through Telegram.</p>
+                <p>It connects to bank data using SimpleFin and uses an LLM backend such as Ollama for local/private inference or Groq for faster cloud-based responses. The main goal is to make personal finance tracking easier, faster, and more conversational without needing to open multiple banking apps.</p>
+              </dd>
+            </div>
+            <div>
+              <dt>Process</dt>
+              <dd>
+                <p>The project was built around a two-phase AI workflow. First, the user asks a natural-language financial question, such as "How much did I spend on Amazon this year?" The LLM does not directly calculate the answer; instead, it extracts the user's intent into structured JSON, including the type of query, merchant or category, and date range.</p>
+                <p>Then deterministic Python code uses Pandas to run the actual calculations on the transaction data. This makes the system more reliable because the LLM handles language understanding, while tested Python logic handles financial computation.</p>
+                <p>Financial data is pulled from SimpleFin, saved locally as Parquet files, and loaded into the chatbot engine for analysis. The project includes separate modules for syncing data, loading transactions, running the chat engine, and handling Telegram/WhatsApp bot interactions.</p>
+              </dd>
+            </div>
+            <div>
+              <dt>Tools</dt>
+              <dd class="tool-stack">
+                <code>Python</code>
+                <code>Telegram Bot API</code>
+                <code>SimpleFin API</code>
+                <code>Ollama</code>
+                <code>Groq</code>
+                <code>Pandas</code>
+                <code>PyArrow</code>
+                <code>Parquet</code>
+                <code>Flask</code>
+                <code>Requests</code>
+                <code>python-telegram-bot</code>
+                <code>python-dotenv</code>
+                <code>Raspberry Pi</code>
+              </dd>
+            </div>
+            <div>
+              <dt>Value Proposition</dt>
+              <dd>
+                <p>FinAgent creates value by turning personal finance analysis into a simple chat experience. Instead of manually checking multiple bank apps or spreadsheets, users can ask questions like "What are my top spending categories this year?" or "How much did I spend on Netflix in the last 3 months?" and receive quick answers based on real transaction data.</p>
+                <p>It also improves privacy and control. With Ollama, financial data and questions can run fully locally, meaning sensitive information does not need to leave the user's machine. Even when using Groq, transaction data remains local and only the question text is sent for processing. The bot is also owner-locked so only an approved Telegram user ID can access it.</p>
+                <p>Overall, the project provides a practical, privacy-focused AI assistant for personal finance management. It saves time, reduces the effort needed to analyze spending, gives faster access to financial insights, and demonstrates how LLMs can be combined with deterministic data processing to create reliable real-world applications.</p>
+              </dd>
+            </div>
+          </dl>
+          <a class="artifact-modal-link" href="https://github.com/d-sanoj/FinAgent" target="_blank" rel="noreferrer">View repository</a>
+        </article>
+
+        <article class="artifact-modal-content" data-artifact-modal="turing">
+          <div class="artifact-modal-header">
+            <img src="assets/turing-today-logo.png" alt="Turing Today wordmark" />
+            <div>
+              <p class="project-kicker">Web / History</p>
+              <h3>Turing Today</h3>
+              <p class="artifact-summary">
+                A guided AI-history experience that makes technical milestones easier to scan,
+                understand, and connect to modern AI systems.
+              </p>
+            </div>
+          </div>
+          <dl class="artifact-details">
+            <div>
+              <dt>Objective</dt>
+              <dd>
+                <p>The objective of Turing &gt; Today is to present the complete history of artificial intelligence as a clean, visual, scrollable timeline. It explains AI as a long evolution, starting from Alan Turing, early computation, neural ideas, and the Dartmouth Conference, then moving through symbolic AI, expert systems, AI Winters, machine learning, deep learning, transformers, generative AI, frontier models, AI agents, and AI regulation.</p>
+              </dd>
+            </div>
+            <div>
+              <dt>Process of Creating It</dt>
+              <dd>
+                <p>The project was created by researching key milestones in AI history and organizing them into a chronological timeline. The website was then built using HTML, CSS, and JavaScript, where data.js stores the timeline content and script.js dynamically displays the cards, people, companies, references, and popups. CSS was used to make the design clean, responsive, and easy to navigate on both desktop and mobile.</p>
+              </dd>
+            </div>
+            <div>
+              <dt>Tools Used</dt>
+              <dd class="tool-stack">
+                <code>HTML</code>
+                <code>CSS</code>
+                <code>JavaScript</code>
+                <code>GitHub</code>
+                <code>GitHub Pages</code>
+                <code>.nojekyll</code>
+                <code>Wikimedia Commons</code>
+                <code>Wikipedia image assets</code>
+                <code>YouTube</code>
+                <code>IEEE Computer Society</code>
+                <code>Our World in Data</code>
+                <code>arXiv</code>
+                <code>Nature</code>
+                <code>academic papers</code>
+                <code>browser DOM APIs</code>
+                <code>CSS media queries</code>
+              </dd>
+            </div>
+            <div>
+              <dt>Value It Creates</dt>
+              <dd>
+                <p>Turing &gt; Today creates value by making AI history easier to understand through a visual, chronological experience instead of a long plain-text article. It helps users see how AI developed step by step, from early theory and symbolic systems to modern foundation models, GPUs, cloud infrastructure, multimodal systems, reasoning models, AI agents, and regulation.</p>
+                <p>It is also useful as an educational portfolio project because it combines historical research, source-backed content, interactive web design, responsive layout, and storytelling. The project highlights major researchers, builders, labs, and companies such as Alan Turing, John McCarthy, Geoffrey Hinton, Yann LeCun, Fei-Fei Li, OpenAI, Anthropic, Google DeepMind, NVIDIA, Microsoft, Meta, IBM, Hugging Face, DeepSeek, and the European Union.</p>
+              </dd>
+            </div>
+          </dl>
+          <div class="project-links">
+            <a class="artifact-modal-link" href="https://d-sanoj.github.io/Turing-Today/" target="_blank" rel="noreferrer">View timeline</a>
+            <a class="artifact-modal-link" href="https://github.com/d-sanoj/Turing-Today" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
