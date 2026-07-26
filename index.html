@@ -60,7 +60,7 @@
           <div class="portrait-stack">
             <div class="avatar-frame">
               <img
-                src="assets/sanoj-github-avatar.png"
+                src="assets/icon/sanoj-github-avatar.png"
                 alt="GitHub avatar for Sanoj"
               />
             </div>
@@ -185,7 +185,7 @@
           <article class="project-card" data-reveal>
             <button class="artifact-card-button" type="button" data-artifact-open="finagent" aria-haspopup="dialog">
               <span class="artifact-image">
-                <img src="assets/finagent-logo.png" alt="FinAgent wordmark" />
+                <img src="assets/artifacts/finagent-logo.png" alt="FinAgent wordmark" />
               </span>
               <span class="artifact-card-title">FinAgent</span>
               <span class="artifact-card-copy">
@@ -198,7 +198,7 @@
           <article class="project-card" data-reveal>
             <button class="artifact-card-button" type="button" data-artifact-open="turing" aria-haspopup="dialog">
               <span class="artifact-image">
-                <img src="assets/turing-today-logo.png" alt="Turing Today wordmark" />
+                <img src="assets/artifacts/turing-today-logo.png" alt="Turing Today wordmark" />
               </span>
               <span class="artifact-card-title">Turing &gt; Today</span>
               <span class="artifact-card-copy">
@@ -220,6 +220,22 @@
               <span class="artifact-card-copy">
                 A comparative study of where traditional machine learning and deep learning create
                 the most practical value across structured business data and historical text.
+              </span>
+            </button>
+          </article>
+
+          <article class="project-card" data-reveal>
+            <button class="artifact-card-button" type="button" data-artifact-open="ml-training" aria-haspopup="dialog">
+              <span class="artifact-image">
+                <img
+                  src="assets/artifacts/ml-training-methods.png"
+                  alt="ML Training Methods Coach cover"
+                />
+              </span>
+              <span class="artifact-card-title">ML Training Methods</span>
+              <span class="artifact-card-copy">
+                A collaborative chatbot activity exploring supervised, unsupervised, and reinforcement
+                learning through guided dialogue with an AI coach.
               </span>
             </button>
           </article>
@@ -251,7 +267,7 @@
 
         <article class="artifact-modal-content is-active" data-artifact-modal="finagent">
           <div class="artifact-modal-header">
-            <img src="assets/finagent-logo.png" alt="FinAgent wordmark" />
+            <img src="assets/artifacts/finagent-logo.png" alt="FinAgent wordmark" />
             <div>
               <p class="project-kicker">AI / Personal data</p>
               <h3>FinAgent</h3>
@@ -313,7 +329,7 @@
 
         <article class="artifact-modal-content" data-artifact-modal="turing">
           <div class="artifact-modal-header">
-            <img src="assets/turing-today-logo.png" alt="Turing Today wordmark" />
+            <img src="assets/artifacts/turing-today-logo.png" alt="Turing Today wordmark" />
             <div>
               <p class="project-kicker">Web / History</p>
               <h3>Turing &gt; Today</h3>
@@ -414,6 +430,73 @@
             href="assets/downloads/machine-learning-vs-deep-learning.docx"
             download="Sanoj-Doddapaneni-Machine-Learning-vs-Deep-Learning.docx"
           >Download assignment (.docx)</a>
+        </article>
+
+        <article class="artifact-modal-content" data-artifact-modal="ml-training">
+          <div class="artifact-modal-header">
+            <img
+              src="assets/artifacts/ml-training-methods.png"
+              alt="ML Training Methods Coach cover"
+            />
+            <div>
+              <p class="project-kicker">Machine Learning / AI Coaching</p>
+              <h3>ML Training Methods</h3>
+              <p class="artifact-summary">
+                A collaborative dialogue with an AI coach to explore how machines actually learn,
+                from labeled data to reward signals, and why each approach matters.
+              </p>
+            </div>
+          </div>
+          <dl class="artifact-details">
+            <div>
+              <dt>Objective</dt>
+              <dd>
+                <p>This activity was designed as an interactive, dialogue-driven exploration of the core training methods used in machine learning. Rather than reading a textbook or watching a lecture, I engaged directly with a pre-trained AI chatbot (the Machine Learning Training Methods Coach on SchoolAI) to work through a set of guided questions covering supervised learning, unsupervised learning, reinforcement learning, optimization algorithms, and the general pipeline for training models.</p>
+                <p>The goal was not just to answer questions correctly, but to reason through each concept collaboratively, using the chatbot as both a tutor and a thinking partner.</p>
+              </dd>
+            </div>
+            <div>
+              <dt>The Activity</dt>
+              <dd>
+                <p>I joined the SchoolAI Space using the instructor-provided link and began a structured conversation with the chatbot. The bot guided me through seven core questions, one at a time, prompting me with follow-up hints, asking me to clarify my reasoning, and providing feedback when I was on the right track or needed to reconsider.</p>
+                <p>The experience felt less like a quiz and more like a peer tutoring session. The chatbot adapted to my responses, digging deeper when I gave a surface-level answer and confirming when I demonstrated genuine understanding. This two-way interaction was valuable because it forced me to articulate my thinking rather than passively consume information.</p>
+              </dd>
+            </div>
+            <div>
+              <dt>Guided Questions</dt>
+              <dd>
+                <p>The chatbot walked me through these topics during our conversation:</p>
+                <p><strong>Supervised learning</strong> — I discussed how models learn from labeled training data by mapping inputs to known outputs, adjusting weights through loss minimization until predictions align with ground truth.</p>
+                <p><strong>Unsupervised learning</strong> — I explored how models find hidden structure in unlabeled data through techniques like clustering (k-means, DBSCAN) and dimensionality reduction (PCA, autoencoders), where the goal is pattern discovery rather than prediction.</p>
+                <p><strong>Reinforcement learning</strong> — I walked through how an agent learns optimal actions by interacting with an environment, receiving rewards or penalties, and updating its policy to maximize cumulative reward over time.</p>
+                <p><strong>Role of algorithms</strong> — I reflected on why the choice of algorithm matters: it determines how the model searches the solution space, how fast it converges, how well it generalizes, and whether it can handle the structure of the data.</p>
+                <p><strong>Training pipeline</strong> — I outlined the general steps: data collection and cleaning, feature engineering, model selection, training with a loss function and optimizer, validation, hyperparameter tuning, and evaluation on held-out test data.</p>
+                <p><strong>Iterating over data</strong> — I discussed how multiple passes (epochs) through the training data allow the model to refine its parameters incrementally, reducing error with each iteration through gradient-based optimization.</p>
+                <p><strong>Role of data</strong> — I explained how training data is the foundation of everything: its quality, quantity, diversity, and representativeness directly determine what the model can learn and how well it generalizes to unseen inputs.</p>
+              </dd>
+            </div>
+            <div>
+              <dt>What I Learned</dt>
+              <dd>
+                <p>Working through these questions in a conversational format reinforced my understanding in ways that static reading does not. When the chatbot pushed back on an incomplete answer or asked me to connect a concept to a real-world scenario, I had to think more carefully about the "why" behind each training method, not just the "what."</p>
+                <p>I also gained a clearer mental model of how supervised, unsupervised, and reinforcement learning relate to each other: they represent fundamentally different assumptions about what information is available during training (labels, no labels, or delayed reward signals), and each unlocks a different class of problems.</p>
+              </dd>
+            </div>
+            <div>
+              <dt>Reflection</dt>
+              <dd>
+                <p>This was one of the more effective learning activities I have experienced in a course. The AI-guided format removed the pressure of being judged for wrong answers while still demanding rigor. The chatbot's hints were well-calibrated: specific enough to be useful, but open-ended enough that I still had to do the reasoning myself.</p>
+                <p>It also highlighted something I think is underappreciated in AI education: the ability to explain a concept clearly to an AI (or anyone) is itself a test of understanding. If I could not articulate why iterating over data helps, the chatbot would keep probing until I could. That loop of explain → get feedback → refine is exactly how deep learning works on concepts, not just parameters.</p>
+              </dd>
+            </div>
+            <div>
+              <dt>Key Takeaway</dt>
+              <dd>
+                <p>Machine learning training is not a single technique but a family of approaches shaped by what information is available and what outcome is desired. Supervised learning needs labels, unsupervised learning finds structure without them, and reinforcement learning discovers strategy through trial and error. The shared thread is iterative optimization: every method improves by repeatedly adjusting its internal representation based on feedback, whether that feedback is a loss gradient, a cluster assignment, or a reward signal.</p>
+                <p>Engaging with an AI coach to work through these ideas was a practical reminder that understanding emerges from dialogue: asking questions, testing assumptions, and refining mental models through structured back-and-forth.</p>
+              </dd>
+            </div>
+          </dl>
         </article>
       </div>
     </div>
