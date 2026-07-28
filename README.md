@@ -1,7 +1,5 @@
 # Sanoj Doddapaneni - Portfolio
 
-Welcome to the source code for my personal portfolio website, available at [sanoj.dev](https://sanoj.dev/).
-
 ## About
 
 This repository contains the code for a clean, interactive, and responsive portfolio designed to showcase my projects and skills. The website is built natively with modern web technologies, avoiding heavy frameworks to ensure blazing fast load times and a lightweight footprint.
